@@ -403,7 +403,7 @@ body {
 .game-icon-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    justify-items: center;   
+    justify-items: center;
     padding: 120px 240px;
     gap: 57px;
     text-align: center;
@@ -472,7 +472,7 @@ body {
 .website-link {
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(6 ,1fr);
+    grid-template-columns: repeat(6, 1fr);
     align-items: center;
     gap: 60px;
     margin: 0 auto;
@@ -492,7 +492,7 @@ body {
 .social-media-icon {
 
     display: grid;
-    grid-template-columns: repeat(6 ,1fr);
+    grid-template-columns: repeat(6, 1fr);
     align-items: center;
     gap: 60px;
     margin: 0 auto;
@@ -504,7 +504,7 @@ body {
 .terms-container {
 
     display: grid;
-    grid-template-columns: repeat(4 ,1fr);
+    grid-template-columns: repeat(4, 1fr);
     align-items: center;
     gap: 60px;
     margin: 0 auto;
