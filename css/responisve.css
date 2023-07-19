@@ -1,0 +1,86 @@
+
+/* mobile screen */
+
+@media screen and (max-width: 576px){
+
+    .header-container {
+        background: #FFF;
+        box-shadow: none;
+       flex-direction: column;
+    
+    }
+
+    .nav-container {
+        flex-direction: column;
+    margin-top: 30px;
+    }
+
+    .follow-icon{
+        width: 200px;
+    }
+    .banner-container {
+        flex-direction: column-reverse;
+        background-image: none;
+        padding: 42px 31px;
+        margin: 0 auto;
+    
+    }
+
+    .banner-right img{
+        width: 119%;
+    }
+
+    .banner-left{
+    margin-top: 30px;
+        background-image: url(../images/Group\ 14.png);
+        padding: 26px;
+        background-size: contain;
+        padding: 76px 67px 76px 36px;
+        margin-left: 93px;
+        margin-top: 38px;
+    }
+    .banner-btn {
+        gap: 19px;
+        
+    width: 379px;
+    
+    
+    }
+}
+
+
+
+
+/* tablet screen  */
+
+@media screen and (min-width:577px) and (max-width:992px) { 
+
+    .header-container{
+        flex-direction: column;
+        padding: 37px 145px;
+        box-shadow: none;
+    
+    }
+
+    .nav-container {
+    margin-top: 30px;
+    width: 470px;
+    margin: 40px auto 10px;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+        background-image: none;
+        padding: 37px 38px;
+    
+    }
+
+    .banner-left{
+            background-image: url(../images/Group\ 14.png);
+            background-size: contain;
+            padding: 76px 129px;
+            margin: 30px auto;
+        }
+
+
+} 

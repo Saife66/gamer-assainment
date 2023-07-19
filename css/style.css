@@ -66,14 +66,14 @@ body {
 
 /* nav css style start */
 
-.navcontainer {
+.nav-container {
     display: flex;
     align-items: center;
     gap: 32px;
 
 }
 
-.navcontainer a {
+.nav-container a {
     text-decoration: none;
 }
 
@@ -107,6 +107,10 @@ body {
     background-repeat: no-repeat;
     background-size: auto;
     color: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+}
+
+.banner-right img{
+    width: 100%;
 }
 
 .baner-title {
@@ -159,5 +163,8 @@ background: var(--pink);
     color: #FFF;
 background: #4EC5F7;
 }
+
+
+
 
 /* Banner css style end */
