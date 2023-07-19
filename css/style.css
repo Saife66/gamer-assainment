@@ -403,6 +403,7 @@ body {
 .game-icon-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    justify-items: center;   
     padding: 120px 240px;
     gap: 57px;
     text-align: center;
@@ -436,13 +437,15 @@ body {
 
 .game-name h5 {
     color: #0B0223;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 600;
 }
 
 
 /* game icon section style  end */
 
+
+/* footer  */
 
 .footer-container {
     background: #0B0223;
@@ -468,11 +471,12 @@ body {
 
 .website-link {
     text-align: center;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6 ,1fr);
     align-items: center;
     gap: 60px;
     margin: 0 auto;
-    width: 50%;
+    width: 60%;
 
     padding-bottom: 66px;
 
@@ -487,7 +491,8 @@ body {
 
 .social-media-icon {
 
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6 ,1fr);
     align-items: center;
     gap: 60px;
     margin: 0 auto;
@@ -498,11 +503,12 @@ body {
 
 .terms-container {
 
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
     align-items: center;
     gap: 60px;
     margin: 0 auto;
-    width: 50%;
+    width: 68%;
     color: #FFF;
     padding-bottom: 36px;
 }

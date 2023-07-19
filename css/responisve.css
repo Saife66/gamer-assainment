@@ -3,6 +3,8 @@
 
 @media screen and (max-width: 576px){
 
+
+
     .header-container {
         background: #FFF;
         box-shadow: none;
@@ -46,9 +48,195 @@
     
     
     }
+
+/* we gamer  */
+
+.we-gamer-container {
+    flex-direction: column;
+    background: none;
+    padding: 20px;
+}
+.we-gamer-container img {
+    width: 120%;
+}
+
+.we-gamer-right {
+    text-align: center;
+    margin-left: 58px;
+
+}
+.purpose-h2 {
+    color: #534C64;
+    font-size: 20px;
+
+}
+.purpose {
+    padding: 34px 0px 5px 0px;
+}
+
+/* funny video  */
+.funny-video-container {
+    padding: 70px 71px;
+}
+
+.funny-video {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+}
+
+.funny-description {
+    font-size: 16px;
+}
+
+.responsive-title{
+
+    width: 425px;
+       
+   
+}
+
+.title-container{
+    width: 128%;
 }
 
 
+.funny-video-description {
+   padding: 20px opx;
+   margin: 29px 0px;
+}
+
+
+/* play instantly section start  */
+
+.play-instant-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+
+    
+.play-instant-des {
+    padding: 27px 45px;
+}
+
+.play-instant-right{
+    margin-left: 20px;
+
+}
+.hourse{
+width: 70%;
+}
+
+.play-small-img {
+    top: 440px;
+    right: 236px;
+    box-shadow: none;
+}
+.small-img {
+    
+    width: 76%;
+}
+
+
+/* play online section  */
+
+.play-online-container {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap:27px;
+    padding: 70px 5px;
+}
+
+
+    
+.play-online-des {
+    padding: 27px 45px;
+}
+
+.play-online-right{
+    margin-left: 20px;
+
+}
+.hourse{
+width: 100%;
+}
+
+.play-online-img {
+    top: 735px;
+    left: 172px;
+    box-shadow: none;
+}
+.small-img {
+    
+    width: 76%;
+}
+
+
+/* carear  */
+
+.Careers-container{
+    flex-direction: column;
+    padding-left: 20px;
+
+}
+
+.crear-img{
+
+    width: 100%;
+}
+
+/* game icon  */
+
+.game-icon-container {
+
+    grid-template-columns: repeat(3, 1fr);
+    padding: 60px 10px;
+    gap: 17px;
+}
+
+/* footer  */
+.footer-logo{
+    padding-bottom: 33px;
+}
+.footer-container {
+    padding: 90px 10px;
+    width: 113%;
+
+}
+
+.website-link {
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 15PX;
+    width: 91%;
+    padding-bottom: 53px;
+}
+
+
+
+.social-media-icon {
+
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 27px;
+    width: 63%;
+    padding-bottom: 61px;
+}
+
+.terms-container {
+
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 15PX;
+    width: 89%;
+}
+
+
+
+.copyright {
+    width: 92%;
+}
+
+}
 
 
 /* tablet screen  */
