@@ -3,6 +3,7 @@
 @media screen and (max-width: 576px) {
 
 
+/* logo and nav css style start */
 
     .header-container {
         background: #FFF;
@@ -19,6 +20,8 @@
     .follow-icon {
         width: 200px;
     }
+
+/* Banner css style start */
 
     .banner-container {
         flex-direction: column-reverse;
@@ -277,9 +280,11 @@
 }
 
 
-/* tablet screen  */
+/* tablet screen brakepoint */
 
 @media screen and (min-width:577px) and (max-width:992px) {
+
+/* logo and nav css style END */
 
     .header-container {
         flex-direction: column;
@@ -294,6 +299,8 @@
         width: 470px;
         margin: 40px auto 10px;
     }
+
+/* Banner css style start */
 
     .banner-right img {
         width: 116%;
