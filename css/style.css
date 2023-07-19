@@ -1,22 +1,31 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-body{
+body {
     font-family: 'Work Sans', sans-serif;
 }
 
 
 /* Share css style start */
 
-:root{
-    --pink:#FF42A5;
+:root {
+    --pink: #FF42A5;
 
 }
 
-.pink-color{
+.pink-color {
     color: var(--pink);
+}
+
+.btn-primary {
+    border-radius: 48px;
+    padding: 21px 40px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 /* share css style end */
@@ -28,9 +37,9 @@ body{
 
 /* logo css style start */
 
-.header-container{
+.header-container {
     background: #FFF;
-box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,17 +47,17 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 10px;
 }
 
-.logo h1{
+.logo h1 {
     color: #0B0223;
-font-size: 45px;
-font-weight: 700;
+    font-size: 45px;
+    font-weight: 700;
 }
 
 
@@ -57,30 +66,98 @@ font-weight: 700;
 
 /* nav css style start */
 
-.navcontainer{
+.navcontainer {
     display: flex;
     align-items: center;
     gap: 32px;
 
 }
-.navcontainer a{
+
+.navcontainer a {
     text-decoration: none;
 }
 
-.follow-icon{
+.follow-icon {
     border-radius: 8px;
-background: rgba(11, 2, 35, 0.10);
-padding: 17px 24px;
-display: flex;
-align-items: center;
-gap: 16px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 17px 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
 
 
 
 /* nav css style END */
 
+/* Banner css style start */
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 37px 240px;
+
+    text-align: center;
+
+}
+
+.banner-container {
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+}
+
+.baner-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
 
 
+.banner-left h1 {
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-left .list p {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    padding-top: 17px;
+}
+
+.banner-icon img {
+    width: 4.5%;
+    padding-right: 10px;
+}
+
+.banner-btn {
+    display: flex;
+    gap: 64px;
+    padding-top: 41px;
 
 
+}
+
+.sign-btn{
+    
+    color: #FFF;
+background: var(--pink);
+}
+
+.rogue-btn{
+    
+    color: #FFF;
+background: #4EC5F7;
+}
+
+/* Banner css style end */
