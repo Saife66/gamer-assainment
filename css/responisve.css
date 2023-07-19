@@ -91,7 +91,7 @@
 
 .responsive-title{
 
-    width: 425px;
+    width: 109%;
        
    
 }
@@ -122,18 +122,21 @@
 }
 
 .play-instant-right{
-    margin-left: 20px;
+    margin-left: 80px;
+    margin-top: 20px;
 
 }
-.hourse{
-width: 70%;
-}
+
 
 .play-small-img {
-    top: 440px;
-    right: 236px;
+    top: 578px;
+    right: 191px;
     box-shadow: none;
 }
+.hourse{
+    width: 100%;
+    }
+    
 .small-img {
     
     width: 76%;
@@ -157,29 +160,45 @@ width: 70%;
 
 .play-online-right{
     margin-left: 20px;
+    width: 100%;
 
 }
-.hourse{
-width: 100%;
+.play-online-left{
+    margin: 0px 43px;
+
+}
+.prince{
+    width: 114%;
 }
 
 .play-online-img {
-    top: 735px;
-    left: 172px;
+    top: 674px;
+    left: 195px;
+    right: -87px;
     box-shadow: none;
 }
 .small-img {
     
-    width: 76%;
+    width: 71%;
 }
 
 
 /* carear  */
 
-.Careers-container{
+.Careers-container {
     flex-direction: column;
     padding-left: 20px;
+    padding-top: 40px;
+    width: 113%;
 
+}
+
+.Careers-left p{
+    font-size: 16px;
+    width: 90%;
+}
+.Careers-right{
+    padding-top: 25px;
 }
 
 .crear-img{
@@ -194,8 +213,15 @@ width: 100%;
     grid-template-columns: repeat(3, 1fr);
     padding: 60px 10px;
     gap: 17px;
+    width: 100%;
+    margin-left: 20px;
 }
+.game-name:hover {
+    border-radius: 15px;
+    padding: 15px 20px;
+    transition: padding 0.5s ease;
 
+}
 /* footer  */
 .footer-logo{
     padding-bottom: 33px;
