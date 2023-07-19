@@ -263,7 +263,6 @@ body {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.658);
-    /* Adjust the overlay background color and transparency */
     opacity: 0;
     transition: opacity 0.3s ease;
     border-radius: 15px;
@@ -275,7 +274,6 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: var(--pink);
-    /* Adjust the content color */
 }
 
 .image-container:hover .overlay {
