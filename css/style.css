@@ -28,6 +28,18 @@ body {
     text-transform: uppercase;
 }
 
+
+.title-primary{
+    font-size: 48px;
+font-weight: 700;
+}
+
+.title-grdient{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
 /* share css style end */
 
 
@@ -96,7 +108,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 37px 240px;
+    padding: 0px 240px;
 
     text-align: center;
 
@@ -168,3 +180,44 @@ background: #4EC5F7;
 
 
 /* Banner css style end */
+
+
+/* we-are-gamer-part start */
+
+.we-gamer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 37px 240px;
+}
+
+.we-gamer-right{
+    text-align: right;
+
+}
+
+.we-gamer-des{
+    color: #534C64;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+padding: 24px 0px 32px 0px;
+width: 100%;
+} 
+
+.purpose-h2{
+    color: #534C64;
+font-size: 32px;
+font-weight: 700;
+line-height: 45px;
+
+}
+
+.purpose{
+    color: #534C64;
+font-size: 24px;
+font-weight: 500;
+padding: 24px 0px 15px 0px;
+}
+/* we-are-gamer-part end */
