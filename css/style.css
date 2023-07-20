@@ -399,9 +399,10 @@ body {
 /* game icon section style  start */
 
 .game-icon-container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    justify-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     padding: 120px 240px;
     gap: 57px;
     text-align: center;
