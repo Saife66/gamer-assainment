@@ -200,7 +200,7 @@
             flex-direction: column;
             padding-left: 20px;
             padding-top: 40px;
-            width: 113%;
+            width: 116%;
     
         }
     
@@ -225,7 +225,7 @@
             grid-template-columns: repeat(3, 1fr);
             padding: 60px 38px;
             gap: 17px;
-            width: 100%;
+            width: 103%;
             margin-left: 0px;
 
         }
@@ -252,7 +252,7 @@
     
         .footer-container {
             padding: 90px 10px;
-            width: 113%;
+            width: 115%;
     
         }
 
