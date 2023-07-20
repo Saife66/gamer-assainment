@@ -221,17 +221,26 @@
         /* game icon  */
     
         .game-icon-container {
-    
+            display: grid;
             grid-template-columns: repeat(3, 1fr);
-            padding: 60px 10px;
+            padding: 60px 38px;
             gap: 17px;
             width: 100%;
-            margin-left: 20px;
+            margin-left: 0px;
+
+        }
+        .game-name{
+            padding: 8px 8px;
+    border-radius: 18px;
+        }
+        .game-name h5 {
+            font-size: 13px;
         }
     
+    
         .game-name:hover {
-            border-radius: 15px;
-            padding: 15px 20px;
+            padding: 8px 8px;
+            border-radius: 18px;
             transition: padding 0.5s ease;
     
         }
@@ -246,7 +255,8 @@
             width: 113%;
     
         }
-    
+
+        
         .website-link {
             grid-template-columns: repeat(3, 1fr);
             gap: 15PX;
@@ -308,17 +318,18 @@
     
         .banner-container {
             flex-direction: column-reverse;
-            background-image: none;
-            padding: 37px 38px;
-    
+    background-image: none;
+    padding: 30px 19px;
+    margin-left: 51px;
         }
     
         .banner-left {
             background-image: url(../images/Group\ 14.png);
             background-size: cover;
-            padding: 76px 129px;
+            padding: 76px 112px;
             margin: 30px auto;
-            width: 80%;
+            width: 79%;
+            text-align: left;
         }
     
     
@@ -337,7 +348,8 @@
     
         .we-gamer-right {
             text-align: center;
-            margin-left: 58px;
+    margin-left: 187px;
+    width: 100%
     
         }
     
@@ -361,6 +373,7 @@
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 15px;
+            width: 129%;
     
         }
     
@@ -386,7 +399,8 @@
         .play-instant-container {
             flex-direction: column;
             text-align: center;
-            padding: 10px 5px;
+            padding: 73px 5px;
+            width: 117%;
         }
     
     
@@ -403,9 +417,9 @@
     
     
         .play-small-img {
-            top: 737px;
-            right: 418px;
-            box-shadow: none;
+            top: 799px;
+    right: 529px;
+    box-shadow: none;
         }
     
         .hourse {
@@ -414,13 +428,14 @@
     
         .small-img {
     
-            width: 96%;
+            width: 103%;;
         }
     
     
         /* play online section  */
     
         .play-online-container {
+            width: 116%;
             flex-direction: column-reverse;
             text-align: center;
             gap: 27px;
@@ -447,9 +462,9 @@
     
         .play-online-img {
     
-            top: 865px;
-            left: 460px;
-            right: -205px;
+            top: 822px;
+            left: 446px;
+            right: -77px;
             box-shadow: none;
         }
     
@@ -463,8 +478,8 @@
     
         .Careers-container {
             flex-direction: column;
-            padding-left: 30px;
-            padding-top: 40px;
+            padding-left: 73px;
+            padding-top: 73px;
             width: 117%;
     
         }
@@ -475,23 +490,22 @@
         }
     
         .Careers-right {
-            padding-top: 25px;
+
+            padding-top: 109px;
         }
     
         .crear-img {
     
-            width: 100%;
+            width: 95%;
         }
     
         /* game icon  */
     
         .game-icon-container {
     
-            grid-template-columns: repeat(3, 1fr);
-            padding: 60px 10px;
+            padding: 73px 75px;
             gap: 17px;
-            width: 100%;
-            margin-left: 20px;
+            width: 107%;
         }
     
         .game-name:hover {
@@ -508,8 +522,7 @@
     
         .footer-container {
             padding: 90px 10px;
-            width: 118%;
-    
+            width: 124%;
         }
     
         .website-link {
